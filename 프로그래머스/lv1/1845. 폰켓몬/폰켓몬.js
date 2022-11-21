@@ -7,11 +7,7 @@ function solution(nums) {
     
     // 종류가 겹치지 않는 폰켓몬을 가지고 오길 원함 set || filter로 중복을 없애 준다
     const only = [...new Set(nums)].length // set 사용
-
-    // const only = nums.filter((a, b) => { //filter 사용
-    //     return nums.indexOf(a) === b;
-    // }).length;
-    
+    // const only = nums.filter(ele => { ele !==  })
     
     return only > half ? half : only;
 }
