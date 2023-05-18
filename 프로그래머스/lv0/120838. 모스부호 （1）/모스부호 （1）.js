@@ -8,9 +8,7 @@ function solution(letter) {
 }
   let chars = letter.split(' ')
 
-  chars = chars.map((char) => {
-     return morse[char]
-  })
+  chars = chars.map((char) =>  morse[char])
 
   return chars.join("")
 }
