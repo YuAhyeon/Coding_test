@@ -5,7 +5,7 @@ function solution(my_string) {
   return my_string
     .replace(regex, '')
     .split('')
-    .reduce((a, c) => Number(a) + Number(c));
+    .reduce((a, c) => Number(a) + Number(c), 0);
 
 }
 
